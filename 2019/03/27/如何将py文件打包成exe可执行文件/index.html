@@ -81,11 +81,16 @@ pyinstaler官网下载pyinstaler
 <hr>
 <h2 id="使用pyinstaller打包py文件成exe程序"><a href="#使用pyinstaller打包py文件成exe程序" class="headerlink" title="使用pyinstaller打包py文件成exe程序"></a>使用pyinstaller打包py文件成exe程序</h2><p><em>将cmd的目录切换至（命令：cd 文件路径(注意空格)）需要打包的py文件目录下：</em></p>
 <blockquote>
-<p>pyinstaller -F test.py</p>
+<p>pyinstaller -F spider.py</p>
 </blockquote>
 <blockquote>
 <p>常用参数说明：<br>–icon=图标路径<br>-F 打包成一个exe文件<br>-w 使用窗口，无控制台<br>-c 使用控制台，无窗口<br>-D 创建一个目录，里面包含exe以及其他一些依赖性文件<br>pyinstaller -h 来查看参数</p>
 </blockquote>
+<hr>
+<h2 id="pyinstaller-改变生成exe程序的图标"><a href="#pyinstaller-改变生成exe程序的图标" class="headerlink" title="pyinstaller 改变生成exe程序的图标"></a>pyinstaller 改变生成exe程序的图标</h2><blockquote>
+<p>pyinstaller -F –icon=my.ico spider.py</p>
+</blockquote>
+<p><em>my.ico 是一个图标名，和当前的spider.py文件在同一个目录下</em></p>
 <hr>
 <p><em>打包好的exe文件，在同目录的dist文件中：</em></p>
 <hr>
