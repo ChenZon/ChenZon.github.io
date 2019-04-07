@@ -1,177 +1,398 @@
-
 <!DOCTYPE html>
-<html lang class="loading">
+<html lang="en">
 <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Chane</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate">
-    <meta name="keywords" content="Fechin,"> 
+  <meta charset="utf-8">
+  
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
     
-    <meta name="author" content="Chane"> 
-    <link rel="alternative" href="atom.xml" title="Chane" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <link rel="stylesheet" href="/css/diaspora.css">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-8691406134231910",
-              enable_page_level_ads: true
-         });
-    </script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
+    Chane</title>
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+  
+  <script src="/js/pace.min.js"></script>
 </head>
 </html>
-<body class="loading">
-    <span id="config-title" style="display:none">Chane</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
+<body>
+<main class="content">
+  <section class="jumbotron">
+  <div class="video">
+    
+      <div class="video-frame">
+        <img src="/images/ocean/overlay-hero.png" alt="Decorative image frame">
+      </div>
+    
+    <div class="video-media">
+      <video playsinline autoplay loop muted data-autoplay poster="/images/ocean/ocean.png" x5-video-player-type="h5">
+        <source src="/images/ocean/ocean.mp4" type="video/mp4">
+        <source src="/images/ocean/ocean.ogv" type="video/ogg">
+        <source src="/images/ocean/ocean.webm" type="video/webm">
+        <p>Your user agent does not support the HTML5 Video element.</p>
+      </video>
+      <div class="video-overlay"></div>
+    </div>
+    <div class="video-inner text-center text-white">
+      <h1><a href="/">Chane</a></h1>
+      <p></p>
+      <div><img src="/images/hexo-inverted.svg" class="brand" alt="Chane"></div>
+    </div>
+    <div class="video-learn-more">
+      <a class="anchor" href="#landingpage"><i class="fe fe-mouse"></i></a>
+    </div>
+  </div>
+</section>
+
+<div id="landingpage">
+  <section class="outer">
+  <article class="articles">
+    
+    <h1 class="page-type-title"></h1>
+
+    
+      
+        <article id="post-Kali-xfce-linux-安装中文输入法的方法-1" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+      <header class="article-header">
         
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/whoami/whoami.html" title="Whoami" target="_blank" rel="noopener">Whoami</a>
-        </li>
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/04/02/Kali-xfce-linux-安装中文输入法的方法-1/">Kali(xfce) linux 安装中文输入法的方法</a>
+    </h2>
+  
+
+      </header>
+    
+
+    
+      <div class="article-meta">
+        <a href="/2019/04/02/Kali-xfce-linux-安装中文输入法的方法-1/" class="article-date">
+  <time datetime="2019-04-02T00:00:36.000Z" itemprop="datePublished">2019-04-02</time>
+</a>
         
+      </div>
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+
+      
+        <p><strong> 本来挺简单的一件事，拖了这么久，实在惭愧。。。</strong><br><strong> 首先我的是Kali-linux(基于xfce主题)</strong></p>
+<hr>
+<h3 id="在终端输入下面的命令"><a href="#在终端输入下面的命令" class="headerlink" title="在终端输入下面的命令"></a>在终端输入下面的命令</h3><blockquote>
+<p>$ leafpad /etc/apt/sources.list   #用编辑器打开sources.list</p>
+</blockquote>
+<hr>
+<h3 id="将sources-list文件清空，然后加入下面信息，即保存一个阿里云的下载源"><a href="#将sources-list文件清空，然后加入下面信息，即保存一个阿里云的下载源" class="headerlink" title="将sources.list文件清空，然后加入下面信息，即保存一个阿里云的下载源"></a>将sources.list文件清空，然后加入下面信息，即保存一个阿里云的下载源</h3><blockquote>
+<p>deb <a href="http://mirrors.aliyun.com/kali" target="_blank" rel="noopener">http://mirrors.aliyun.com/kali</a> kali-rolling main non-free contrib</p>
+</blockquote>
+<hr>
+<h3 id="然后在终端输入下面命令"><a href="#然后在终端输入下面命令" class="headerlink" title="然后在终端输入下面命令"></a>然后在终端输入下面命令</h3><blockquote>
+<p>$ apt-get update<br>这个命令会访问源列表里的每个网址，并读取软件列表，然后保存在本地电脑。我们在新立得软件包管理器里看到的软件列表，都是通过update命令更新的。update后，可能需要apt-get upgrade一下。</p>
+</blockquote>
+<hr>
+<h3 id="执行下面指令"><a href="#执行下面指令" class="headerlink" title="执行下面指令"></a>执行下面指令</h3><blockquote>
+<p>$ apt-get install fcitx fcitx-googlepinyin</p>
+</blockquote>
+<hr>
+<h3 id="然后在配置里设置输入法，选择Google拼音即可"><a href="#然后在配置里设置输入法，选择Google拼音即可" class="headerlink" title="然后在配置里设置输入法，选择Google拼音即可"></a>然后在配置里设置输入法，选择Google拼音即可</h3><hr>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><blockquote>
+<p><a href="https://blog.csdn.net/mars_guest/article/details/79899202" target="_blank" rel="noopener">https://blog.csdn.net/mars_guest/article/details/79899202</a></p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/04/02/Kali-xfce-linux-安装中文输入法的方法-1/" data-id="cju6glik90000t4vcfdc1z5va" class="article-share-link">Share</a>
+      
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+
+
+
+      
+        <article id="post-如何将py文件打包成exe可执行文件" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/03/27/如何将py文件打包成exe可执行文件/">如何将py文件打包成exe可执行文件</a>
+    </h2>
+  
+
+      </header>
+    
+
+    
+      <div class="article-meta">
+        <a href="/2019/03/27/如何将py文件打包成exe可执行文件/" class="article-date">
+  <time datetime="2019-03-27T12:17:32.000Z" itemprop="datePublished">2019-03-27</time>
+</a>
+        
+      </div>
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+
+      
+        <h2 id="下载pyinstaller"><a href="#下载pyinstaller" class="headerlink" title="下载pyinstaller"></a>下载pyinstaller</h2><hr>
+<p><em>pyinstaler官网</em><br><a href="http://www.pyinstaller.org/downloads.html" target="_blank" rel="noopener">下载pyinstaler</a></p>
+<hr>
+<p><em>下载安装后，将压缩文件解压缩在Python安装目录下，进入该文件：</em></p>
+<hr>
+<p><em>该目录中含有setup.py，同时在cmd中进入该目录：</em></p>
+<hr>
+<p><em>输入命令</em></p>
+<blockquote>
+<p>python setup.py install</p>
+</blockquote>
+<hr>
+<p><em>看到“Finished processing dependencies for PyInstaller==3.3.dev0+41c426f6d”，即安装成功：</em></p>
+<hr>
+<h2 id="使用pyinstaller打包py文件成exe程序"><a href="#使用pyinstaller打包py文件成exe程序" class="headerlink" title="使用pyinstaller打包py文件成exe程序"></a>使用pyinstaller打包py文件成exe程序</h2><p><em>将cmd的目录切换至（命令：cd 文件路径(注意空格)）需要打包的py文件目录下：</em></p>
+<blockquote>
+<p>pyinstaller -F spider.py</p>
+</blockquote>
+<blockquote>
+<p>常用参数说明：<br>–icon=图标路径<br>-F 打包成一个exe文件<br>-w 使用窗口，无控制台<br>-c 使用控制台，无窗口<br>-D 创建一个目录，里面包含exe以及其他一些依赖性文件<br>pyinstaller -h 来查看参数</p>
+</blockquote>
+<hr>
+<h2 id="pyinstaller-改变生成exe程序的图标"><a href="#pyinstaller-改变生成exe程序的图标" class="headerlink" title="pyinstaller 改变生成exe程序的图标"></a>pyinstaller 改变生成exe程序的图标</h2><blockquote>
+<p>pyinstaller -F –icon=my.ico spider.py</p>
+</blockquote>
+<p><em>my.ico 是一个图标名，和当前的spider.py文件在同一个目录下</em></p>
+<hr>
+<p><em>打包好的exe文件，在同目录的dist文件中：</em></p>
+<hr>
+<p><em>参考链接</em></p>
+<blockquote>
+<p><a href="https://blog.csdn.net/lqzdreamer/article/details/77917493" target="_blank" rel="noopener">https://blog.csdn.net/lqzdreamer/article/details/77917493</a></p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/03/27/如何将py文件打包成exe可执行文件/" data-id="cju6glikk0002t4vcz1whajsi" class="article-share-link">Share</a>
+      
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+
+
+
+      
+        <article id="post-在github上搭建个人博客" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/03/13/在github上搭建个人博客/">在github上搭建个人博客</a>
+    </h2>
+  
+
+      </header>
+    
+
+    
+      <div class="article-meta">
+        <a href="/2019/03/13/在github上搭建个人博客/" class="article-date">
+  <time datetime="2019-03-13T09:25:10.000Z" itemprop="datePublished">2019-03-13</time>
+</a>
+        
+      </div>
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+
+      
+        <p><strong>闲着没事,就自己捣鼓一下,探究如何在github上搭建自己个人的博客</strong><br><strong>建立自己个人博客网站的好处:</strong><br><strong>1.把平时积累的知识记录下来,以便日后查看复习</strong><br><strong>2.更好的熟练git(捂脸)</strong><br><strong>3.向个位大佬齐(敬礼)</strong> </p>
+<hr>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><em>在github上创建仓库</em><br><a href="https://github.com/new" target="_blank" rel="noopener">创建仓库</a></p>
+<hr>
+<p><em>安装git</em><br><a href="https://git-scm.com/download/" target="_blank" rel="noopener">下载git</a></p>
+<hr>
+<p><em>使用SSH将git与Github进行绑定</em><br><a href="https://blog.csdn.net/zero________________/article/details/81143284" target="_blank" rel="noopener">进行配置</a></p>
+<hr>
+<p><em>安装node.js</em><br><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">下载node.js</a></p>
+<hr>
+<p><em>安装hexo</em></p>
+<blockquote>
+<p>$npm install -g hexo-cli</p>
+</blockquote>
+<hr>
+<h2 id="生成项目"><a href="#生成项目" class="headerlink" title="生成项目"></a>生成项目</h2><blockquote>
+<p>&nbsp;$hexo init &lt;folder>  &nbsp;&nbsp;&nbsp;&nbsp;#folder为你存储项目的文件夹<br>&nbsp;$ cd &lt;folder><br>&nbsp;$ npm install<br>&nbsp;$ hexo generate  #或hexo g<br>&nbsp;$ hexo server    #或hexo s  启动本地服务器,然后可以通过<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 访问</p>
+</blockquote>
+<h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><p><em>在项目里找到_config.yml文件</em></p>
+<blockquote>
+<p>deploy:<br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: git  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#注意”:”后有空格<br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:ChenZon/ChenZon.github.io.git  &nbsp;&nbsp;&nbsp;#域名填写你本人的<br>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;branch: master  </p>
+</blockquote>
+<p><em>回到命令行，输入以下命令</em></p>
+<blockquote>
+<p>&nbsp;$npm install hexo-deployer-git –save<br>&nbsp;$hexo generate #或hexo g<br>&nbsp;$hexo deploy   #或hexo d</p>
+</blockquote>
+<p><em>然后可以正常通过域名访问刚刚所部署的项目</em></p>
+<p><strong><a href="https://chenzon.github.io" target="_blank" rel="noopener">https://chenzon.github.io</a></strong> #访问本人的github地址</p>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p><em>如果你觉得主题不好看，可以根据自己的爱好进行更换</em><br><strong><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></strong></p>
+<hr>
+<p><em>当你看上了喜欢的主题，将其下载到本地</em></p>
+<blockquote>
+<p>$git clone <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:blinkfox/hexo-theme-matery.git #注意：要下载到项目中的themes文件里</p>
+</blockquote>
+<p><em>在项目里找到_config.yml文件，作以下修改</em></p>
+<blockquote>
+<p>theme: hexo-theme-matery &nbsp;&nbsp;&nbsp;#hexo-theme-matery为你所下载的主题名字</p>
+</blockquote>
+<p><em>然后重新部署</em></p>
+<blockquote>
+<p>&nbsp;hexo clean &nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;hexo generate &nbsp;&nbsp;&nbsp;&nbsp;#或hexo g<br>&nbsp;hexo deploy &nbsp;&nbsp;&nbsp;&nbsp;#或hexo d</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/03/13/在github上搭建个人博客/" data-id="cju6glikh0001t4vciflkq3r2" class="article-share-link">Share</a>
+      
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+
+
+
+      
+  </article>
+  
+  
+</section>
+</div>
+
+  <footer class="footer">
+  
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+    <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+    <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>&copy; 2019 Chane</li>
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>Theme  <a href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
     </ul>
-    <p id="copyright">
-        &copy; 2019 Chane.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
-        by Fechin
-    </p>
-</div>
+  </div>
+</footer>
 
-<div id="container">
+</main>
+<aside class="sidebar">
+  <button class="navbar-toggle"></button>
+
+<nav class="navbar">
+  
+    <div class="logo">
+      <a href="/"><img src="/images/hexo.svg" alt="Chane"></a>
+    </div>
+  
+  <ul class="nav nav-main">
     
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewbox="0 0 2880 1620" height="100%" preserveaspectratio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
-        <div>
-            <a class="image-logo" href="/"></a>
-            <div class="icon-menu switchmenu"></div>
-        </div>
-    </div>
+      <li class="nav-item">
+        <a class="nav-item-link" href="/">Home</a>
+      </li>
     
-    <div id="post0">
-        <p>四月 02, 2019</p>
-        <h2><a href="/2019/04/02/Kali-xfce-linux-安装中文输入法的方法-1/" title="Kali(xfce) linux 安装中文输入法的方法" class="posttitle">Kali(xfce) linux 安装中文输入法的方法</a></h2>
-        <p class="summary"> 本来挺简单的一件事，拖了这么久，实在惭愧。。。 首先我的是Kali-linux(基于xfce主题)
-
-在终端输入...</p>
-    </div>
+      <li class="nav-item">
+        <a class="nav-item-link" href="/archives">Archives</a>
+      </li>
     
-</div>
-
-    <div id="primary">
-        
-<div class="post">
-    <a href="/2019/03/27/如何将py文件打包成exe可执行文件/" title="如何将py文件打包成exe可执行文件">
-        <img src="/img/cover2.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>三月 27, 2019</p>
-        <h3><a href="/2019/03/27/如何将py文件打包成exe可执行文件/" title="如何将py文件打包成exe可执行文件" class="posttitle">如何将py文件打包成exe可执行文件</a></h3>
-        <p>下载pyinstaller
-pyinstaler官网下载pyinstaler
-
-下载安装后，将压缩文件解压缩在Python安装目录下，进入该文件：
-
-该目...</p>
-    </div>
-</div>
-
-
-<div class="post">
-    <a href="/2019/03/13/在github上搭建个人博客/" title="在github上搭建个人博客">
-        <img src="/img/cover.jpg" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>三月 13, 2019</p>
-        <h3><a href="/2019/03/13/在github上搭建个人博客/" title="在github上搭建个人博客" class="posttitle">在github上搭建个人博客</a></h3>
-        <p>闲着没事,就自己捣鼓一下,探究如何在github上搭建自己个人的博客建立自己个人博客网站的好处:1.把平时积累的知识记录下来,以便日后查看复习2.更好的熟...</p>
-    </div>
-</div>
-
-
-    </div>
+      <li class="nav-item">
+        <a class="nav-item-link" href="/gallery">Gallery</a>
+      </li>
     
+      <li class="nav-item">
+        <a class="nav-item-link" href="/about">About</a>
+      </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="Search">
+        <i class="fe fe-search"></i>
+        Search
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+        <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+          <i class="fe fe-feed"></i>
+        </a>
+      
+    </li>
+  </ul>
+</nav>
+
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
 </div>
-<div id="preview"></div>
+</div>
+</aside>
+<script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/lazyload.min.js"></script>
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+  <script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/ocean.js"></script>
 
 </body>
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/diaspora.js"></script>
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
 </html>
